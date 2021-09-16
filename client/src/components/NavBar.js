@@ -9,11 +9,11 @@ export default function NavBar() {
         <Navbar bg="primary" variant="dark">
             <Container>
                 <Navbar.Brand href="/">
-                        <img
-                            src="/assets/logo_white.svg"
-                            className="d-inline-block align-top navbar-logo"
-                            alt="Logo"
-                        />
+                    <img
+                        src="/assets/logo_white.svg"
+                        className="d-inline-block align-top navbar-logo"
+                        alt="Logo"
+                    />
                 </Navbar.Brand>
                 <Nav className="me-auto">
                     <Nav.Link href="/about">About</Nav.Link>
